@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Page object model">
+	<listeners>
+		<listener class-name="com.bridgelabz.qa.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+	<test name="Page object models Test">
+		<classes>
+			<class name="com.bridgelabz.qa.POM.PageTests.LoginPage_Test"></class>
+			<class name="com.bridgelabz.qa.POM.PageTests.HomePage_Test"></class>
+			<class name="com.bridgelabz.qa.POM.PageTests.FriendPage_Test"></class>
+			<class name="com.bridgelabz.qa.POM.PageTests.MarketPlacePage_Test"></class>
+		</classes>
+	</test>
+</suite>
